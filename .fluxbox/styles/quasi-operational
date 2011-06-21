@@ -1,0 +1,149 @@
+! fluxbox theme: quasi-operational
+! made by Adam Weinberger <adamw@FreeBSD.org>
+! Copyright 2003 by Adam Weinberger
+! Use it, abuse it, but please credit it accordingly
+!
+!
+! modified from the fantastic blackbox theme "donut"
+!     made by Youngjin Hahn <artwiz |at| mindspring |dot| com>
+!     http://themes.freshmeat.net/projects/donut/?topic_id=920
+! my background of choice for this is from the GDM greeter "The Wall"
+!     made by Yovko Lambrev <yovko |at| yovko |dot| net>
+!     http://www.themedepot.org/itemdetail.php4?id=983
+! the button pixmaps were stolen shamelessly from the Metacity theme "quasi-operational"
+!     made by Antolini Andrea <a |dot| atolini |at| infinito |dot| it>
+!     which was ported from the Sawfish theme by Alex Becherer
+
+toolbar:			flat gradient vertical
+toolbar.color:			white
+toolbar.colorTo:		rgb:70/74/78
+
+toolbar.button:			flat gradient vertical
+toolbar.button.color:		rgb:e0/e4/e8
+toolbar.button.colorTo:		rgb:88/8c/90
+toolbar.button.picColor:	black
+
+toolbar.button.pressed:		flat gradient diagonal
+toolbar.button.pressed.color:	rgb:20/24/28
+toolbar.button.pressed.colorTo:	rgb:50/54/58
+
+toolbar.clock:			flat gradient vertical
+toolbar.clock.color:		rgb:20/24/28
+toolbar.clock.colorTo:		rgb:50/54/58
+toolbar.clock.textColor:	white
+
+toolbar.label:			flat gradient vertical
+toolbar.label.color:		rgb:20/24/28
+toolbar.label.colorTo:		rgb:50/54/58
+toolbar.label.textColor:	white
+
+toolbar.windowLabel:		flat gradient vertical
+toolbar.windowLabel.color:	rgb:20/24/28
+toolbar.windowLabel.colorTo:	rgb:50/54/58
+toolbar.windowLabel.textColor:	white
+
+toolbar.justify:		center
+
+menu.title:			flat gradient vertical
+menu.title.color:		white
+menu.title.colorTo:		rgb:70/74/78
+menu.title.textColor:		black
+menu.title.justify:		center
+
+menu.frame:			flat gradient diagonal interlaced
+menu.frame.color:		rgb:10/14/18
+menu.frame.colorTo:		rgb:40/44/48
+menu.frame.textColor:		#d7e0ee
+menu.frame.justify:		center
+
+menu.hilite:			flat gradient vertical
+menu.hilite.color:		white
+menu.hilite.colorTo:		rgb:70/78/80
+menu.hilite.textColor:		black
+
+menu.bullet:			square
+menu.bullet.position:		left
+
+window.title.focus:		flat gradient vertical
+window.title.focus.color:	white
+window.title.focus.colorTo:	rgb:70/74/78
+window.title.unfocus:		flat gradient vertical
+window.title.unfocus.color:	rgb:40/44/48
+window.title.unfocus.colorTo:	black
+
+window.label.focus:		flat gradient vertical
+window.label.focus.color:	rgb:20/24/28
+window.label.focus.colorTo:	rgb:50/54/58
+window.label.focus.textColor:	white
+window.label.unfocus:		flat gradient vertical
+window.label.unfocus.color:	black
+window.label.unfocus.colorTo:	rgb:20/24/28
+window.label.unfocus.textColor:	rgb:60/64/68
+
+window.button.focus:		flat gradient vertical
+window.button.focus.color:	rgb:e0/e4/e8
+window.button.focus.colorTo:	rgb:88/8c/90
+window.button.focus.picColor:	black
+window.button.unfocus:		flat gradient vertical
+window.button.unfocus.color:	rgb:38/3c/40
+window.button.unfocus.colorTo:	rgb:04/0c/14
+window.button.unfocus.picColor: rgb:60/64/68
+window.button.pressed:		flat gradient diagonal
+window.button.pressed.color:	rgb:20/24/28
+window.button.pressed.colorTo:	rgb:50/58/60
+
+window.frame.focus:		flat solid
+window.frame.focus.color:	rgb:40/44/48
+window.frame.unfocus:		flat solid
+window.frame.unfocus.color:	rgb:20/24/28
+
+window.handle.focus:		flat gradient vertical
+window.handle.focus.color:	white
+window.handle.focus.colorTo:	rgb:60/64/68
+window.handle.unfocus:		flat gradient vertical
+window.handle.unfocus.color:	rgb:40/44/48
+window.handle.unfocus.colorTo:	black
+
+window.grip.focus:		flat gradient diagonal
+window.grip.focus.color:	rgb:20/24/28
+window.grip.focus.colorTo:	rgb:50/54/58
+window.grip.unfocus:		flat gradient diagonal
+window.grip.unfocus.color:	black
+window.grip.unfocus.colorTo:	rgb:20/24/28
+
+window.justify:			center
+
+borderColor:			black
+
+bevelWidth:			0
+borderWidth:			1
+handleWidth:			5
+
+menu.roundCorners:		BottomRight BottomLeft TopLeft TopRight
+toolbar.shaped:			true
+window.roundCorners:		TopLeft TopRight BottomLeft BottomRight
+
+window.close.pixmap:		/home/monkey/.fluxbox/pixmaps/quasi-operational/close.xpm
+window.maximize.pixmap:		/home/monkey/.fluxbox/pixmaps/quasi-operational/max.xpm
+window.iconify.pixmap:		/home/monkey/.fluxbox/pixmaps/quasi-operational/min.xpm
+window.stick.pixmap:		/home/monkey/.fluxbox/pixmaps/quasi-operational/stick.xpm
+window.stuck.pixmap:		/home/monkey/.fluxbox/pixmaps/quasi-operational/stuck.xpm
+
+window.close.pressed.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/close_fade.xpm
+window.maximize.pressed.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/max_fade.xpm
+window.iconify.pressed.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/min_fade.xpm
+window.stick.pressed.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/stick_fade.xpm
+
+window.close.unfocus.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/close_fade.xpm
+window.maximize.unfocus.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/max_fade.xpm
+window.iconify.unfocus.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/min_fade.xpm
+window.stick.unfocus.pixmap:	/home/monkey/.fluxbox/pixmaps/quasi-operational/stick_fade.xpm
+
+rootCommand:			Esetroot -s /home/monkey/images/backgrounds/thewall.png
+*Font:				-*-lucidatypewriter-medium-r-*-*-*-100-*-*-*-*-*-*
+
+*font:				helvetica-12
+*xft.font:			Trebuchet MS
+*xft.size:			9
+menu*xft.size:			7
+toolbar*xft.size: 		9

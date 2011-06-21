@@ -1,0 +1,141 @@
+
+toolbar:		        flat  gradient Crossdiagonal
+toolbar.color:		#e9c774
+toolbar.colorTo:		#f9ebc8
+
+toolbar.button:			raised solid
+toolbar.button.color:	rgb:ed/e5/d6
+toolbar.button.picColor:	rgb:90/90/90
+
+toolbar.button.pressed:		sunken gradient vertical
+toolbar.button.pressed.color:   rgb:dd/dd/dd
+toolbar.button.pressed.colorTo: rgb:c0/c0/c0
+
+toolbar.label:			flat  gradient Crossdiagonal
+toolbar.label.color:		#e9c774
+toolbar.label.colorTo:		#f9ebc8
+toolbar.label.textColor:	rgb:1a/04/08
+
+toolbar.windowLabel:		flat gradient vertical
+toolbar.windowLabel.color:	rgb:f6/df/93
+toolbar.windowLabel.colorTo:	rgb:ee/b9/6b
+toolbar.windowLabel.textColor:	rgb:1a/04/08
+
+toolbar.clock:			flat gradient Crossdiagonal
+toolbar.clock.color:		#e9c774
+toolbar.clock.colorTo:		#f9ebc8
+toolbar.clock.textColor:	rgb:1a/04/08
+
+toolbar.justify:		Center
+
+menu.title:			flat gradient Crossdiagonal
+menu.title.color:		#e9c774
+menu.title.colorTo:		#f9ebc8
+
+menu.title.textColor:           rgb:0/0/0
+menu.title.justify:		center
+
+menu.frame:			raised gradient Crossdiagonal
+menu.frame.color:		#fcf5e8
+menu.frame.colorTo:		#e9c794
+
+menu.frame.textColor:		rgb:0/0/0
+menu.frame.justify:		left
+
+menu.hilite:			flat solid
+menu.hilite.textColor:		rgb:f/f/f
+menu.hilite.color:		rgb:30/30/30
+
+menu.bullet:			triangle
+menu.bullet.position:		right
+
+window.title.focus:		flat gradient Crossdiagonal
+
+window.title.focus.color:	#e9c774
+window.title.focus.colorTo:	#f9ebc8
+
+window.title.unfocus:		flat gradient vertical
+window.title.unfocus.color:	rgb:fd/f5/e6
+window.title.unfocus.colorTo:	rgb:fd/f5/e6
+
+
+window.label.focus:		flat gradient Crossdiagonal
+window.label.focus.color:	#e9c774
+window.label.focus.colorTo:	#f9ebc8
+window.label.focus.textColor:	rgb:1a/04/08
+
+window.label.unfocus:		flat gradient vertical
+window.label.unfocus.color:	rgb:fd/f5/e6
+window.label.unfocus.colorTo:	rgb:fd/f5/e6
+window.label.unfocus.textColor:	rgb:5a/5a/5a
+
+window.handle.focus:		raised gradient vertical
+window.handle.focus.color:	rgb:cc/cc/cc
+window.handle.focus.colorTo:	rgb:d0/d0/d0
+window.handle.unfocus:		raised gradient vertical
+window.handle.unfocus.color:	rgb:d0/d0/d0
+window.handle.unfocus.colorTo:	rgb:cc/cc/cc
+
+window.grip.focus:		raised gradient vertical
+window.grip.focus.color:	rgb:f6/df/93
+window.grip.focus.colorTo:	rgb:ee/b9/6b
+window.grip.unfocus:		raised gradient vertical
+window.grip.unfocus.color:	rgb:dd/dd/dd
+window.grip.unfocus.colorTo:	rgb:c0/c0/c0
+
+window.button.focus:		flat gradient vertical
+window.button.focus.color:	rgb:fd/f5/e6
+window.button.focus.colorTo:	rgb:fd/f5/e6
+window.button.focus.picColor:	#d9b764
+window.button.unfocus:		parentrelative
+window.button.unfocus.color:	rgb:dd/dd/dd
+window.button.unfocus.colorTo:	rgb:c0/c0/c0
+window.button.unfocus.picColor:	rgb:b0/b0/b0
+
+window.button.pressed:		sunken gradient diagonal
+window.button.pressed.color:	rgb:f6/df/93
+window.button.pressed.colorTo:	rgb:ee/b9/6b
+
+window.frame.focusColor:	rgb:e3/cd/a6
+window.frame.unfocusColor:	rgb:6/6/6
+
+window.justify:			center
+
+borderColor:			#F1D99E
+
+borderWidth:			1
+bevelWidth:			1
+handleWidth:			4
+
+
+*textColor:		rgb:c/c/c
+window.tab.label.unfocus.textColor: rgb:5a/5a/5a
+window.tab.label.focus.textColor: rgb:1a/04/08
+
+
+! Normal fonts 
+
+menu*font:		glisp
+toolbar*font:		glisp
+menu.frame.font:		mints-mild
+menu.title.font:		mints-strong
+window.label.unfocus.font:	mints-strong
+window.tab.font:		mints-strong
+window.font:	glisp-bold
+!menu.frame.font:		snap
+
+menu.frame.font: -schumacher-clean-medium-r-normal-*-*-130-*-*-c-*-iso646.1991-irv
+
+
+! Antialias fonts
+
+!menu*font:	Verdana-10
+!menuFont:Verdana-10
+!menu.title.font:Verdana-9
+!menu.frame.font:Verdana-9
+!window.font:	Verdana-9
+!window.tab.font:	Verdana-10
+!toolbar.font:	Verdana-8
+
+
+

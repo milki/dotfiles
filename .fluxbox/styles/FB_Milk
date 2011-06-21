@@ -1,0 +1,102 @@
+! Milk (c) 2002 Dale K Dicks
+! Made to approximate the "Milk" theme by KoL_ (www.studio-28.tk)
+! Original OSX theme by MAX
+!
+! Blackbox window manager resource defaults, with an
+! eye towards consuming as little of an 8-bit palette
+! as possible. As an additional bonus, with the changes
+! as of Blackbox 0.60.3, it should also use very little
+! memory.
+
+toolbar:                        Flat Vertical Gradient
+toolbar.color:                  White
+toolbar.colorTo:		rgb:e4/e4/e4
+toolbar.clock:                  ParentRelative
+toolbar.clock.textColor:	rgb:a5/a6/a8
+toolbar.label:                  ParentRelative
+toolbar.label.textColor:	rgb:a5/a6/a8
+toolbar.windowLabel:            ParentRelative
+
+toolbar.button:                 Flat Vertical Gradient
+toolbar.button.color:		White
+toolbar.button.colorTo:		rgb:e4/e4/e4
+toolbar.button.pressed:         Flat Vertiacal Gradient
+toolbar.button.pressed.color:   rgb:e4/e4/e4
+toolbar.button.pressed.colorTo:	Grey
+toolbar.button*picColor:        rgb:a5/a6/a8
+toolbar.windowlabel.textColor:	rgb:a5/a6/a8
+
+toolbar.textColor:              rgb:a5/a6/a8
+toolbar.justify:                Center
+
+window.tab.justify:		Left
+window.tab.unfocus:		Flat Vertical Gradient
+window.tab.unfocus.color:	White
+window.tab.unfocus.colorTo:	rgb:e4/e4/e4
+window.tab.focus:		Flat Vertical Gradient
+window.tab.focus.color:		White
+window.tab.focus.colorTo:	rgb:e4/e4/e4
+window.tab.borderColor:		Grey
+
+window.title.focus:             Flat Vertical Gradient
+window.title.focus.color:       White
+window.title.focus.colorTo:	rgb:e4/e4/e4
+window.title.unfocus:           Flat Vertical Gradient
+window.title.unfocus.color:     White
+window.title.unfocus.colorTo:	rgb:e4/e4/e4
+
+window.label.focus:             ParentRelative
+window.label.focus.textColor:   DarkGrey
+window.label.unfocus:           ParentRelative
+window.label.unfocus.textColor: rgb:c9/c9/c9
+
+window.button.focus:            ParentRelative
+window.button.focus.picColor:   rgb:a5/a6/a8
+window.button.unfocus:          ParentRelative
+window.button.unfocus.picColor: rgb:c9/c9/c9
+window.button.pressed:          ParentRelative
+
+window.handle.focus:            Flat Solid
+window.handle.focus.color:      rgb:e4/e4/e4
+window.handle.unfocus:          Flat Solid
+window.handle.unfocus.color:    rgb:e4/e4/e4
+
+window.grip.focus:              Flat Solid
+window.grip.unfocus:            Flat Solid
+window.grip*color:              Grey
+
+window.frame.focusColor:        rgb:a5/a6/ae8
+window.frame.unfocusColor:      Grey
+
+window.justify:                 center
+
+menu.title:                     Flat Vertical Gradient
+menu.frame:                     Flat Horizontal Gradient
+menu.hilite:                    Flat Horizontal Gradient
+
+menu.title.color:               White
+menu.title.colorTo:		LightGrey
+menu.title.textColor:           DarkGrey
+menu.title.justify:             center
+
+menu.frame.color:               White
+menu.frame.colorTo:		rgb:e4/e4/e4
+menu.frame.textColor:           rgb:a5/a6/a8
+menu.frame.justify:             left
+
+menu.hilite.color:              LightGrey
+menu.hilite.colorTo:		rgb:e4/e4/e4
+menu.hilite.textColor:          rgb:a5/a6/a8
+
+menu.bullet:                    Triangle
+menu.bullet.position:           Right
+
+borderColor:                    Grey
+
+bevelWidth:                     1
+borderWidth:                    1
+handleWidth:                    4
+
+*Font:                          -*-helvetica-*-r-*-*-12-*-*-*-*-*-*-*
+
+rootCommand:                    bsetbg /usr/share/wallpapers/quamodb.JPG

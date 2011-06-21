@@ -1,0 +1,114 @@
+! UnderSpace made in September 2002 by xlife@zuavra.net
+! If you make other themes inspired or derived from this one
+! please send them to me so I can enjoy them as well.
+! (You need the Snap font from the Artwiz pack for this.)
+
+*textColor:			rgb:c/c/c
+
+toolbar:		        raised gradient vertical
+toolbar.color:			rgb:50/50/50
+toolbar.colorTo:		rgb:30/30/30
+
+toolbar.button:			sunken solid
+toolbar.button.color:		rgb:4/4/4
+toolbar.button.picColor:	rgb:c/c/c
+toolbar.button.pressed:		sunken solid bevel2
+toolbar.button.pressed.color:   rgb:9/9/9
+
+toolbar.label:			parentrelative
+toolbar.label.textColor:	rgb:c/c/c
+
+toolbar.windowLabel:		parentrelative
+toolbar.windowLabel.textColor:	rgb:f/f/f
+
+toolbar.clock:			parentrelative
+toolbar.clock.textColor:	rgb:c/c/c
+
+toolbar.justify:		Center
+
+menu.title:			raised gradient vertical
+menu.title.color:		rgb:50/50/50
+menu.title.colorTo:		rgb:30/30/30
+menu.title.textColor:           rgb:c/c/c
+menu.title.justify:		center
+
+menu.frame:			flat solid bevel1
+menu.frame.color:		rgb:30/30/30
+menu.frame.textColor:		rgb:c0/c0/c0
+menu.frame.justify:		left
+
+menu.hilite:			raised gradient vertical
+menu.hilite.color:		rgb:c0/c0/c0
+menu.hilite.colorTo:		rgb:b0/b0/b0
+menu.hilite.textColor:		rgb:30/30/30
+
+menu.bullet:			triangle
+menu.bullet.position:		right
+
+window.title.focus:		raised gradient vertical
+window.title.focus.color:	rgb:50/50/50
+window.title.focus.colorTo:	rgb:30/30/30
+window.title.unfocus:		raised gradient vertical
+window.title.unfocus.color:	rgb:40/40/40
+window.title.unfocus.colorTo:	rgb:28/28/28
+
+window.label.focus:		parentrelative
+window.label.focus.textColor:	rgb:c/c/c
+window.label.unfocus:		parentrelative
+window.label.unfocus.textColor:	rgb:6/6/6
+
+window.handle.focus:		raised gradient vertical
+window.handle.focus.color:	rgb:60/60/60
+window.handle.focus.colorTo:	rgb:30/30/30
+window.handle.unfocus:		raised gradient vertical
+window.handle.unfocus.color:	rgb:40/40/40
+window.handle.unfocus.colorTo:	rgb:20/20/20
+
+window.grip.focus:		raised gradient vertical
+window.grip.focus.color:	rgb:60/60/60
+window.grip.focus.colorTo:	rgb:30/30/30
+window.grip.unfocus:		raised gradient vertical
+window.grip.unfocus.color:	rgb:40/40/40
+window.grip.unfocus.colorTo:	rgb:20/20/20
+
+window.button.focus:		sunken solid
+window.button.focus.color:	rgb:4/4/4
+window.button.focus.colorTo:	rgb:ee/ee/bb
+window.button.focus.picColor:	rgb:c/c/c
+window.button.unfocus:		parentrelative
+window.button.unfocus.picColor:	rgb:6/6/6
+window.button.pressed:		sunken solid bevel2
+window.button.pressed.color:	rgb:9/9/9
+
+window.frame.focusColor:	rgb:50/50/50
+window.frame.unfocusColor:	rgb:40/40/40
+
+window.justify:			center
+
+borderColor:			rgb:20/20/20
+
+borderWidth:			1
+bevelWidth:			1
+handleWidth:			2
+
+*font:			snap
+
+rootCommand: bsetroot -mod 14 14 -fg rgb:40/40/40 -bg rgb:3b/3b/3b
+
+! change bbpager style
+bbpager.frame:			flat solid
+bbpager.frame.color:		rgb:50/50/50
+
+bbpager.desktop:		flat solid
+bbpager.desktop.color:		rgb:40/40/40
+
+bbpager.window:			Flat Solid
+bbpager.window.color:		rgb:58/58/58
+
+bbpager.window.focus:		flat solid
+bbpager.window.focus.color:	rgb:7/7/7
+
+bbpager.active.window.borderColor:      black
+bbpager.inactive.window.borderColor:	black
+bbpager.active.desktop.borderColor:	black
+

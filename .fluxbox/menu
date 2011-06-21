@@ -1,0 +1,22 @@
+[begin] (milki)
+    [exec] (xterm) {xterm}
+    [exec] (comix) {comix}
+    [exec] (gnucash) {gnucash}
+[submenu] (fluxbox menu)
+    [config] (Configure)
+[submenu] (styles)
+    [stylesmenu] (styles) {/usr/share/fluxbox/styles/}
+    [stylesmenu] (user styles) {~/.fluxbox/styles/}
+[end]
+    [workspaces] (Workspace List)
+[end]
+    [exec] (Lock screen) {xscreensaver-command -lock}
+    [commanddialog] (Fluxbox Command)
+    [reconfig] (Reload config)
+    [restart] (Restart)
+    [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) 2> /dev/null | xmessage -file - -center}
+    [separator]
+    [exit] (Exit)
+[end]
+[end]
+[end]
