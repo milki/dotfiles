@@ -1,7 +1,5 @@
 [begin] (milki)
     [exec] (xterm) {xterm}
-    [exec] (comix) {comix}
-    [exec] (gnucash) {gnucash}
 [submenu] (fluxbox menu)
     [config] (Configure)
 [submenu] (styles)

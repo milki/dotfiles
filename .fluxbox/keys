@@ -58,8 +58,3 @@ Mod4 D :Exec (urxvtc -geometry 80x55+0+0 &) && ( urxvtc -geometry 80x55+580+0 &)
 Mod4 E :Exec (urxvtc -geometry 230x37+0+0 &) && (urxvtc -geometry 230x37+0+510 &)
 Control Mod1 C :ExecCommand chromium
 Control Mod1 r :Reconfigure
-
-
-
-
-
